@@ -18,5 +18,5 @@ from django.urls import path
 from crazygt.web import gt_web as gt
 urlpatterns = [
     path('admin/', admin.site.urls),
-    path('list/', gt.hobby_list),
+    path('hobby/list/', gt.hobby_list),
 ]
